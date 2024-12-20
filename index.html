@@ -1,22 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Formulários</title>
-</head>
-<body>
+  </head>
+  <body>
     <form action="./login.html" method="get" target="_blank">
-        <fieldset>
-            <legend>Login</legend>
-            <label for="nome"></label>
-           <input type="text" name="nome" id="nome">
-           <button type="submit">Enviar</button>        
-        </fieldset>
-        <label for="coment">Insira seu Comentário</label><br>
-        <textarea name="comentario" id="coment" col="30" rows="20"></textarea>
-        <br>
-        <input type="file" id="arq" multiple>
+      <fieldset>
+        <legend>Login</legend>
+        <label for="nome"></label>
+        <input type="text" name="nome" id="nome" />
+        <button type="submit">Enviar</button>
+      </fieldset>
+      <label for="coment">Insira seu Comentário</label><br />
+      <textarea name="comentario" id="coment" col="30" rows="20"></textarea>
+      <br />
+      <input type="file" id="arq" multiple />
+      <br />
+      <br />
+      <label>Amarelo</label>
+      <input type="checkbox" checked/>
+      <label>Verde</label>
+      <input type="checkbox" checked disabled/>
+      <label>Azul</label>
+      <input type="checkbox" disabled/>
     </form>
-</body>
+  </body>
 </html>
